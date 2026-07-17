@@ -1,16 +1,29 @@
-## Hi there 👋
+class YaminiKumar:
+    def __init__(self):
+        self.name = "Yamini Kumar"
+        self.location = "Tiruvannamalai, Tamil Nadu, India"
+        self.degree = "B.Tech - Artificial Intelligence & Data Science"
+        self.college = "SKP Engineering College"
 
-<!--
-**yamzz2006/yamzz2006** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        self.stack = {
+            "languages": ["Python", "SQL", "HTML"],
+            "ml_ai": ["Scikit-learn", "Deep Learning", "Neural Networks",
+                      "Classification", "Supervised Learning"],
+            "data": ["NumPy", "Pandas", "Matplotlib", "Feature Engineering"],
+            "cloud_deploy": ["OCI", "Microsoft Azure (Fabric)", "MLflow"]
+        }
 
-Here are some ideas to get you started:
+        self.currently_learning = [
+            "Advanced Deep Learning (NPTEL Elite, IISc Bangalore)",
+            "MLOps & Model Deployment at Scale"
+        ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        self.fun_fact = "I turn messy real-world datasets into clean, production-ready ML pipelines."
+
+    def motto(self):
+        return "Preprocess. Predict. Deploy. Repeat."
+
+
+if __name__ == "__main__":
+    me = YaminiKumar()
+    print(me.motto())
